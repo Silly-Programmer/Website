@@ -1,0 +1,176 @@
+.card {
+    margin-bottom: 30px;
+    /* Add bottom margin to each card */
+}
+
+.row {
+    margin-left: -15px;
+    /* Adjust the left margin of the row */
+    margin-right: -15px;
+    /* Adjust the right margin of the row */
+}
+
+.col-md-4 {
+    padding-left: 15px;
+    /* Add left padding to each column */
+    padding-right: 15px;
+    /* Add right padding to each column */
+}
+.category-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Navbar link color and hover effect */
+.navbar .nav-link {
+    color: rgb(104, 54, 78) !important;
+    position: relative;
+    transition: color 0.3s ease;
+}
+.navbar .nav-link:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: rgb(84, 34, 58); 
+    transition: width 0.3s;
+    width: 100%;
+}
+/* Show dropdown menu on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Adjust margin if necessary */
+}
+
+.nav-item.dropdown .dropdown-menu {
+    display: none; /* Ensure it is hidden by default */
+    position: absolute; /* Keep it in place */
+}
+/* Hero Section Styling */
+.hero-section {
+    display: flex;
+    align-items: center; 
+    padding: 50px;
+    background-color: rgb(86,20,41);
+}
+
+.hero-content {
+    flex: 1;
+    text-align: right; /* Align text to the right */
+    color: beige;
+}
+
+.hero-image {
+    padding-left: 30px;
+    flex: 1; 
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px; 
+}
+/* Ensures that cards in the featured section are fixed in size */
+.featured-card {
+    width: 100%; /* Makes the card width fill the container */
+    height: 400px; /* Fixed height for the card */
+    display: flex;
+    flex-direction: column; /* Aligns content vertically */
+}
+
+.card-img-top {
+    height: 200px; /* Fixed height for the image */
+    object-fit: cover; /* Ensures that the image covers the area without distortion */
+}
+
+/* Keeps the card body (text and button) aligned and spaced well */
+.card-body {
+    display: flex;
+    flex-direction: column; /* Stacks the content vertically */
+    justify-content: space-between; /* Makes sure the content is spaced out */
+    padding: 15px;
+    height: 100%; /* Ensures the card body takes up all available height */
+}
+
+.card-body h5 {
+    font-size: 18px; /* Set a consistent font size for titles */
+}
+
+.card-body p {
+    font-size: 16px; /* Set a consistent font size for price */
+    margin-bottom: 15px; /* Adds some space before the button */
+}
+
+.card-body .btn {
+    margin-top: auto; /* Ensures the button is always at the bottom */
+}
+
+#categories{
+    background-color: papayawhip;
+}
+.category-card{
+    background-color: rgb(84,34,58);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+.category-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card-category{
+    color: white;
+}
+.btn-outline-primary{
+    color: white;
+    border: none;
+
+}
+.btn-outline-primary:hover{
+    background-color: beige;
+    color: rgb(86,20,41);
+}
+#featured{
+    background-color: teal;
+}
+.featured-card{
+    background-color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    
+}
+.featured-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.card-featured{
+    color: black;
+}
+.feat{
+    background-color:white;
+    color: black;
+    border: none;
+}
+.feat:hover{
+    background-color: teal;
+    color:white ;
+}
+.blquote{
+    color: teal;
+}
+
+#shop{
+    background-color: beige;
+    border: none;
+    color: rgb(86,20,41);
+}
+#shop:hover{
+    color: beige;
+    background-color: rgb(86,20,41);
+}
+.navbar-brand{
+    color:rgb(86,20,41);
+}
+.foot{
+    background-color: beige;
+}
